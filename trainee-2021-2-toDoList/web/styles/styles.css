@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-left: 59px;
+    width: auto;
+    height: 40px;
+    top: 28px;
+
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;   
+    
+    color: #FFFFFF;
+
+}
+
+header {
+    display: flex;
+    width: auto;
+    justify-content:space-between;
+    align-items:center;
+    height: 96px;
+    background: #5E2075;
+}
+
+img {
+    margin-right: 59px;
+    width: 235px;
+    height: 70px;
+    left: 1142px;
+    top: 13px;
+    
+}
+
+#linhadivisoria {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid #171519;
+    float: left;
+}
+
+h2 {
+    position: absolute;
+    width: 265px;
+    height: 40px;
+    left: 13px;
+    top: 122px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #171519;
+}
+
+
+#validationCustom01 {
+    position: absolute;
+    width: 166px;
+    height: 43px;
+    left: 20px;
+    top: 211px;
+
+    background: #5E2075;
+    border-radius: 100px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-family: 'Archivo';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#tasks{
+    list-style-type: none;
+    position: absolute;
+    width: 184px;
+    height: 35px;
+    left: 20px;
+    top: 260px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+
+    color: #171519;
+}
+
+.nav-link {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+
+    color: #171519;
+}
+
+.remove {
+    font-family: 'Archivo';
+    font-style: normal;
+    width: 80px;
+    height: 35px;
+    color: #FFFFFF;
+
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+#button1 {   
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    position: absolute;
+    width: 46px;
+    height: 43px;
+    left: 190px;
+    top: 211px;
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+#button2 {
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 18vw;
+    height: 43px;
+    left: 720px;
+    top: 133px;
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+#button3 {
+    width: 20px;
+    height: 20px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #5E2075;
+    border-radius: 100px;
+
+    opacity: 1;
+    background-image: none;
+    display: inline-block;
+}
+
+#button4 {
+    width: 180px;
+    height: 40px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+.form-control-title {
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom-color: black;
+}
+
+.form-control-title::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.form-control-body {
+    border-color: black;
+    border-radius: 25px;
+    height: 200px;
+}
+
+.data_hora_body {
+    text-align: end;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+    font-family: 'Archivo';
+    font-style: normal;
+}
+
+textarea {
+    resize: none;
+}
+
+#tabela {
+    position: absolute;
+    width: 75vw;
+    height: 43px;
+    left: 311px;
+    top: 211px;
+
+    background: #5E2075;
+}
+
+#col1 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    
+   
+  }
+
+  #linhas{
+    position: relative;
+    background-color: white;
+    width: 75vw;
+    height: 43px;
+    left: 287px;
+    top: 163px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+
+   
+  }
+  
+  #tarefa{
+  margin-left: 10px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: none;
+  
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 23px;
+  
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  }
+  
+  #data{
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: none;
+  
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 22px;
+  
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  }
+  
+  .container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 43px;
+  }
+  
+  .check{
+    left:0;
+    top:70px;
+    width: 40px;
+    height: 40px;
+   
+    background:#ccc;
+  }
+  
+  .container input:checked~ .check{
+    background: #5E2075;
+  }
+  
+  #mModal{
+    border-radius: 30px;
+  }
+  
+  button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    max-width: 1066px;
+    max-height: 43px;
+  }
+
+  #buttonExcluir{
+    width: 180px;
+    height: 40px;
+  
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    background: #FF6A0E;
+    border-radius: 100px;
+  }
+  
+  #buttonEditar{
+    width: 180px;
+    height: 40px;
+  
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    background: #5E2075;
+    border-radius: 100px;
+  }
+
+  .modal-content{
+    border-radius: 2.3 rem;
+}
+
+.modal-body h3{
+  text-align: center;
+  font-family: 'Archivo';
+  font-style: normal;
+}
+
+.modal-body p{
+  text-align:right;
+  font-family: 'Archivo';
+  font-style: normal;
+  color: black;
+}

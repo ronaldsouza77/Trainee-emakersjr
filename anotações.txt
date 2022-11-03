@@ -1,0 +1,240 @@
+    <div>
+        <h2>Categorias</h2>
+        <div  class="row">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <div><ul class ="tasks" id="tasks"></ul></div>
+              <input placeholder="Nova Categoria" type="text" class="input-new-task" id="validationCustom01">
+              <button class="btn-add-task" id="button1" type="submit">+</button>
+             
+            </div>
+          </form>
+        </div>
+      </div>
+
+******
+ <section id="linhadivisoria">
+      <div>
+        <h2>Categorias</h2>
+        <div  class="row">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Nova Categoria" required>
+              <button class="btn" id="button1" type="submit">+</button>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div> 
+          <div>
+            <button class="btn" type="button"  id="button2" >+Criar nova tarefa</button>
+          </div>
+        
+          <div class="row align-items-center" id="tabela">
+            <div class="col" id="col1">Tarefa</div>
+            <div class="col" id="col1">Descrição</div>
+            <div class="col" id="col1">Prazo de conclusão</div>
+          </div>
+      </div>
+
+    </section>
+******
+ <section id="linhadivisoria">
+      <div>
+        <h2>Categorias</h2>
+          <div class="row" id="categoria">         
+              <div class="col align-self-center" id="categoria2">Nova Categoria</div> 
+          </div> 
+********
+      <div>
+        <h2>Categorias</h2>
+        <div  class="row">
+          <form>
+            <input placeholder="Nova Categoria">
+            <button class="btn" id="button1" type="submit">+</button>
+          </form>
+        </div>
+      </div>
+*******
+ <table>
+        <tr>
+          <h2>Categorias</h2>
+            <td></td>
+            <form>
+              <input placeholder="Nova Categoria">
+              <button id="button1" type="submit">+</button>
+            </form>
+        </tr>  
+      </table>
+********
+          <button type="button" id="button1">+</button>
+ 	<table id="table">
+        <tr>
+          <h2>Categorias</h2>
+            <td><input ></input></td>
+           <td><button id="categoria">Nova Categoria</button></td>
+           <td><button type="button" id="button1">+</button></td>
+        </tr>
+        <div id="newline">
+        </div>
+      </table>
+      </div>
+
+      <div> 
+          <div>
+            <button type="button"  id="button2" >+Criar nova tarefa</button>
+          </div>
+        
+          <div class="row align-items-center" id="tabela">
+            <div class="col" id="col1">Tarefa</div>
+            <div class="col" id="col1">Descrição</div>
+            <div class="col" id="col1">Prazo de conclusão</div>
+          </div>
+      </div>
+
+    </section>
+
+
+*******
+
+#categoria {
+    position: absolute;
+    width: 166px;
+    height: 43px;
+    left: 20px;
+    top: 399px;
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+#categoria2 {
+   
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+#button1 {   
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+
+
+    position: absolute;
+    width: 46px;
+    height: 43px;
+    left: 179px;
+    top: 399px;
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+#button2 {
+    position: absolute;
+    width: 191px;
+    height: 18px;
+    left: 749px;
+    top: 145px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 249px;
+    height: 43px;
+    left: 720px;
+    top: 133px;
+
+    background: #5E2075;
+    border-radius: 100px;
+}
+
+#tabela {
+    position: absolute;
+    width: 1066px;
+    height: 43px;
+    left: 311px;
+    top: 211px;
+
+    background: #5E2075;
+}
+
+#col1 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+}
+******
+::placeholder {
+    font-family: 'Archivo';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#tasks{
+    list-style-type: none;
+    position: absolute;
+    width: 184px;
+    height: 35px;
+    left: 20px;
+    top: 260px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+
+    color: #171519;
+}
+
+.nav-link {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+
+    color: #171519;
+}
+
+.remove {
+    font-family: 'Archivo';
+    font-style: normal;
+    width: 80px;
+    height: 35px;
+    color: #FFFFFF;
+
+
+    background: #5E2075;
+    border-radius: 100px;
+}

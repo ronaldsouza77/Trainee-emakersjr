@@ -1,0 +1,75 @@
+-------------------------------------------------
+COMANDOS BÁSICOS
+-------------------------------------------------
+
+== Configurar ==
+
+git config --global user.name "Meu Nome"
+git config --global user.email "meuemail@gmail.com"
+
+== Inicializar repositório Git ==
+
+git init
+
+== Ver status de rastreamento ==
+
+git status
+
+== Adicionar rastreamento ==
+
+git add <arquivo>
+git add . (Rastrear tudo)
+
+== Remover arquivo da lista ==
+
+git rm --cached <arquivo>
+
+== Commitar/Salvar ==
+
+git commit -m "Mensagem"
+
+== Ver log ==
+
+git log
+
+== Reverter alterações ==
+
+git revert <hash>
+
+-------------------------------------------------
+COMANDOS INTERMEDIÁRIOS
+-------------------------------------------------
+
+== Criar e mudar para nova branch ==
+
+git checkout -b <nome> (Criar e ir)
+git checkout <nome> (Ir)
+
+== Apenas criar branch ==
+
+git branch <nome>
+git branch <nome> <nome da branch que quer se basear>
+
+== Deletar branch ==
+
+git branch -D <nome>
+
+== Mergear/Juntar ==
+
+git merge <nome branch>
+
+-------------------------------------------------
+COMANDOS GITHUB
+-------------------------------------------------
+
+== Clonar/Baixar repositório ==
+
+git clone <link>
+
+== Enviar para o repositório na nuvem ==
+
+git push
+
+== Atualizar alterações ==
+
+git pull
